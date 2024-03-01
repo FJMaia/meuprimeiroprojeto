@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+     body {
+    background-color: black;
+   }
+header {
+padding: 32px;
+border-bottom: 1px solid #FF0000;
+background-color: rgba(0, 0,0,0.1);
+}
+header div {
+    text-align: center;/* Alinhamento no meio do header */
+}
+header div a {
+    color: white; /* a cor do texto */
+    font-size: 20px; /* tamanho da fonte */
+    line-height: 30px; /* espaçamento da linha de texto */
+    margin: 0 16px; /* espaçamento entre os textos */
+    text-decoration: none; /* retirar decorações do texto */
+    font-family:"Lora", serif; /* a fonte escolhida pro menu */
+}
+header div a:hover { /*seleção do modo quando o mouse passar por cima "hover"*/
+   color: greenyellow; /*mudar para cor greenyellow*/
+   transition: color 700ms; /* e fazer uma transição de cor que dura 700ms*/
+}
