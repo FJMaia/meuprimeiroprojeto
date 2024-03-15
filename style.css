@@ -13,10 +13,10 @@ border-bottom: 1px solid var(--subcor);
 background-color: rgba(0, 0,0,0.1);
 color: antiquewhite;
 }
-header div {
+.links {
     text-align: center;/* Alinhamento no meio do header */
 }
-header div a {
+.links a {
     color: white; /* a cor do texto */
     font-size: 20px; /* tamanho da fonte */
     line-height: 30px; /* espaçamento da linha de texto */
@@ -24,7 +24,7 @@ header div a {
     text-decoration: none; /* retirar decorações do texto */
     font-family:"Lora", serif; /* a fonte escolhida pro menu */
 }
-header div a:hover { /*seleção do modo quando o mouse passar por cima "hover"*/
+.links a:hover { /*seleção do modo quando o mouse passar por cima "hover"*/
    color: greenyellow; /*mudar para cor greenyellow*/
    transition: color 700ms; /* e fazer uma transição de cor que dura 700ms*/
 }
@@ -57,4 +57,12 @@ header div a:hover { /*seleção do modo quando o mouse passar por cima "hover"*
 }
 :root{ /*iniciando a variavel*/
  --subcor: #FF0000; /* nomeando a variavel de --subcor e guardando uma cor nela*/
-} /* Fechando a o bloco da variavel
+} /* Fechando a o bloco da variavel*/
+#linksFooter {
+    padding-top: 32px;
+}
+#linksFooter a {
+    padding-top: 32px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid var(--subcor);
+}
