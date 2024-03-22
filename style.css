@@ -41,6 +41,7 @@ color: antiquewhite;
     font-size: 42px; /* tamanho da fonte*/
     line-height: 52px; /* espaçamento da linha do texto*/
     font-weight: bold; /* tipo da fonte*/
+    color: #ffffff;
 }
 #box h2{
     font-size: 24px; /* tamanho da fonte*/
@@ -48,12 +49,14 @@ color: antiquewhite;
     font-weight: normal; /* tipo da fonte*/
     margin-top: 8px; /* distancia da margem superior dos outros elementos*/
     opacity: 0.8; /* transparencia do elementos*/
+    color: #ffffff;
 }
 #box p{
     max-width: 500px; /* tamanho maximo do elemento na largura*/
     margin: 32px auto; /* distancia das margens dos outros elementos*/
     font-size: 24px; /* tamanho da fonte*/
     line-height: 34px; /* espaçamento da linha do texto*/
+    color: #ffffff;
 }
 :root{ /*iniciando a variavel*/
  --subcor: #FF0000; /* nomeando a variavel de --subcor e guardando uma cor nela*/
